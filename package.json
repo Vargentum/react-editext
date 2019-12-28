@@ -13,7 +13,7 @@
   ],
   "author": "alioguzhan",
   "license": "MIT",
-  "repository": "vargentum/react-editext",
+  "repository": "https://github.com/Vargentum/react-editext.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

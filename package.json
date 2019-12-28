@@ -1,5 +1,5 @@
 {
-  "name": "react-editext",
+  "name": "@vargentum/react-editext",
   "version": "3.12.0",
   "description": "Editable Text Component for React Applications",
   "keywords": [

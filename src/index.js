@@ -84,10 +84,12 @@ export default class EdiText extends Component {
   }
 
   handleInputChange = e => {
+    const { inputProps } = this.props
     this.setState({
       valid: true,
       value: e.target.value
     })
+    inputProps.onChange && inputProps.onChange(e) // this sucks.
   }
 
   handleCancel = () => {
